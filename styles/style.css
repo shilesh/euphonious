@@ -16,7 +16,7 @@ body {
 .scale_from_root_note {
     margin-top: 15px;
     padding: 10px;
-    background: linear-gradient(to bottom, lightgreen, lightpurple);
+    background-color: rgb(245, 218, 245);
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -24,7 +24,7 @@ body {
 .scale_from_notes {
     margin-top: 15px;
     padding: 10px;
-    background: linear-gradient(to bottom, rgb(144, 149, 238), lightpurple);
+    background-color: rgb(186, 221, 242);
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -32,7 +32,7 @@ body {
 .result {
     margin-top: 15px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: rgb(160, 225, 149);
     border: 1px solid #ddd;
     border-radius: 5px;
 }
