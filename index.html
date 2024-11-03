@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes and Scales </title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Scales from notes </h1>
+
+    <div class="scale_from_root_note">
+        <!-- Dropdown with alphabets -->
+        <label for="alphabetDropdown">Choose a note to get the scales :</label>
+        <select id="alphabetDropdown">
+            <option value="">Select</option>
+            <!-- Generate options for A-Z using JavaScript -->
+        </select>
+
+        <!-- Two checkboxes with mutually exclusive selection -->
+        <div >
+            <p>Select one :</p>
+            <input type="checkbox" id="option1" name="option" value="Option 1" onclick="selectOnlyOne(this)">
+            <label for="option1">Minor </label>
+            <input type="checkbox" id="option2" name="option" checked value="Option 2" onclick="selectOnlyOne(this)">
+            <label for="option2">Major </label>
+        </div>
+    </div>
+
+    <div class="scale_from_notes">
+        <!-- Text box and button -->
+        <label for="inputText">Enter text:</label>
+        <input type="text" id="inputText">
+        <button onclick="displayResult()">Show Result</button>
+ 
+    </div>
+    <!-- Div to show the result -->
+    <div id="result" class="result"></div>
+
+</div>
+
+<script src="js/events.js"></script>
+<script src="js/lib.js"></script>
+</body>
+</html>
